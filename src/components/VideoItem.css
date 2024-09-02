@@ -1,0 +1,25 @@
+.video-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.video-item img {
+    width: 120px;
+    height: 70px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.video-info h4 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.video-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #888;
+}
